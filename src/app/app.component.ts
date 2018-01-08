@@ -14,10 +14,10 @@ export class LoginForm {
 export class AppComponent {
   title = 'My First Angular App';
   hero = 'Windstorm';
+  loginForm: LoginForm = {
+    strUserName: 'zhang',
+    strUserPassword: ''
+  };
 }
 
 
-loginForm:LoginForm = {
-  strUserName: 'zhang',
-  strUserPassword: ''
-};
