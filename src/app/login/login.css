@@ -1,0 +1,104 @@
+.login-main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("/assets/img/login/login-bg.png");
+  background-size: 100% 100%;
+  min-height: 600px;
+  text-align: center; }
+
+.login-cnt-par {
+  display: inline-block;
+  width: 67%;
+  box-shadow: 0 0 10px 2px #ccc; }
+
+.login-cnt-par:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.login-form-par {
+  position: absolute;
+  top: 50%;
+  margin-top: -275px;
+  width: 100%; }
+
+.login-tip {
+  width: 50%;
+  height: 550px;
+  float: left; }
+  .login-tip img {
+    width: 100%;
+    height: 100%; }
+
+.login-form {
+  display: block;
+  float: left;
+  background: #fff;
+  width: 50%;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px; }
+  .login-form .logo {
+    display: block;
+    width: 80px;
+    height: 80px; }
+  .login-form h3 {
+    font-size: 28px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center; }
+
+.login-form-cnt {
+  padding-top: 20px; }
+
+.login-form-gp {
+  position: relative;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px; }
+  .login-form-gp .iconfont {
+    color: #ccc; }
+  .login-form-gp .iptInner-icon {
+    position: absolute;
+    font-size: 16px;
+    right: 25px;
+    top: 50%;
+    margin-top: -8px;
+    color: #666; }
+
+.login-form-ipt {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  color: #666;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .login-form-ipt:focus {
+    border-color: #08e1ef; }
+
+.login-form-loginbBtn {
+  width: 100%;
+  height: 50px;
+  border-radius: 50px; }
+
+.login-form-rg {
+  background: #ccc;
+  height: 1px;
+  font-size: 0;
+  margin-top: 100px; }
+  .login-form-rg a {
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    line-height: 1;
+    bottom: 7px;
+    color: #e60012;
+    background: #fff; }
+
+/*# sourceMappingURL=login.css.map */

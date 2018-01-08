@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>注册-元数据管理</title>
+  @@include('../include/includeCss.html')
+  <link rel="stylesheet" href="<%=root%>/assets/css/login/register.css">
+</head>
+<body>
+<div class="register-main">
+  <div class="register-form-par">
+    <form class="register-form" id="register-form">
+      <i class="logo"></i>
+      <h3 class="title">注册</h3>
+      <div class="register-form-cnt">
+        <div class="common-form-gp js-vdt-group">
+          <input type="text" class="common-form-ipt" placeholder="账户名" id="registerName" name="strUserName">
+          <i class="iconfont icon-yonghu iptInner-icon"></i>
+        </div>
+        <div class="common-form-gp js-vdt-group">
+          <input type="text" class="common-form-ipt" placeholder="昵称" id="registerNickName" name="strUserNameCN">
+          <i class="iconfont icon-yonghu iptInner-icon"></i>
+        </div>
+        <div class="common-form-gp js-vdt-group">
+          <input type="password" class="common-form-ipt" placeholder="密码" id="registerPW" name="strUserPassword">
+          <i class="iconfont icon-mima iptInner-icon"></i>
+        </div>
+        <div class="common-form-gp">
+          <button type="button" class="register-form-loginbBtn" id="registerBtn">注册</button>
+        </div>
+        <div class="login-form-gp common-form-line w70per">
+          <a class="midA" href="./login.html">前往登录页</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+@@include('../include/includeJs.html')
+<script src="<%=root%>/assets/js/login/register.js"></script>
+</body>
+</html>
