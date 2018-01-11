@@ -16,11 +16,11 @@
         <h3 class="title">登录</h3>
         <div class="login-form-cnt">
           <div class="login-form-gp">
-            <input type="text" class="login-form-ipt" placeholder="账户名" id="loginName" value="{{loginForm.strUserName}}">
+            <input class="login-form-ipt" placeholder="账户名" id="loginName"  [(ngModel)]="loginForm.strUserName" name="strUserName">
             <i class="iconfont icon-yonghu iptInner-icon"></i>
           </div>
           <div class="login-form-gp">
-            <input type="password" class="login-form-ipt" placeholder="密码" id="loginPW">
+            <input type="password" class="login-form-ipt" placeholder="密码" id="loginPW" [(ngModel)]="loginForm.strUserPassword" name="strUserPassword">
             <i class="iconfont icon-mima iptInner-icon"></i>
           </div>
           <div class="login-form-gp pseudo-clear">
@@ -29,7 +29,7 @@
             </a>
           </div>
           <div class="login-form-gp">
-            <button type="button" class="login-form-loginbBtn" id="loginBtn">登录</button>
+            <button type="button" class="login-form-loginbBtn" id="loginBtn" (click)="login();">登录</button>
           </div>
           <div class="login-form-gp login-form-rg">
             <a href="./register.html">立即注册</a>
